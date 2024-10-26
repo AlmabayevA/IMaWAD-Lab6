@@ -1,0 +1,30 @@
+<head>
+    <meta charset="UTF-8">
+    <title>+Уши</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="music-player">
+    <img style="margin-top: 150px" id="cover" src="images/cover1.jpg" alt="Track Cover">
+    <h2 id="track-name">Track 1</h2>
+    <label for="volume-control">Volume:</label>
+    <input type="range" id="volume-control" min="0" max="1" step="0.01" value="0.5">
+    <input type="range" id="progress-bar" min="0" max="100" value="0">
+    <div class="controls">
+        <button id = "previous">Previous</button>
+        <button id = "play-pause">Play</button>
+        <button id = "next">Next</button>
+        <button id = "shuffle">Shuffle</button>
+    </div>
+    <ul id="track-list">
+        <li data-track="0">Второй Ка - Встречайте Говнюков</li>
+        <li data-track="1">Второй Ка - Мы играем до конца</li>
+        <li data-track="2">Ayau - jaman adam?</li>
+        <li data-track="3">The Pretty Reckless - Make me wanna die</li>
+        <li data-track="4">Ninety One - Bari biled</li>
+        <li data-track="5">Sergey Shnurov - Свобода(feat. Кипелов)</li>
+    </ul>
+</div>
+
+<script src="script.js"></script>
+</body>
